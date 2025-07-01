@@ -1,0 +1,187 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eleganza Jewelry</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --rose-gold: #b76e79;
+      --cream: #fffaf0;
+      --deep-purple: #3d2c42;
+      --light-pink: #fcefee;
+      --white: #ffffff;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background: var(--cream);
+      color: var(--deep-purple);
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background: linear-gradient(to right, var(--rose-gold), #e7a1a6);
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3em;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+
+    .btn {
+      background-color: var(--white);
+      color: var(--rose-gold);
+      border: 2px solid var(--white);
+      padding: 10px 25px;
+      font-size: 1em;
+      border-radius: 30px;
+      margin-top: 20px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background-color: transparent;
+      color: var(--white);
+      border-color: var(--white);
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    section h2 {
+      text-align: center;
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5em;
+      margin-bottom: 30px;
+    }
+
+    .about {
+      text-align: center;
+      font-size: 1.1em;
+      color: #4c3b4d;
+    }
+
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 40px;
+    }
+
+    .card {
+      background: var(--light-pink);
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 10px 15px rgba(0,0,0,0.05);
+      max-width: 280px;
+      text-align: center;
+    }
+
+    .card img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+
+    .testimonial {
+      background: #fff;
+      border-left: 5px solid var(--rose-gold);
+      padding: 20px;
+      margin: 20px 0;
+      font-style: italic;
+    }
+
+    .contact {
+      text-align: center;
+    }
+
+    footer {
+      background: var(--deep-purple);
+      color: white;
+      text-align: center;
+      padding: 30px;
+    }
+
+    @media (max-width: 768px) {
+      .features {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Eleganza Jewelry</h1>
+  <p>Custom-made luxury pieces crafted to reflect your unique beauty</p>
+  <a href="#contact"><button class="btn">Get Started</button></a>
+</header>
+
+<section class="about">
+  <h2>About Us</h2>
+  <p>
+    At Eleganza, we believe jewelry should be as personal as your story. Each piece is handcrafted with the finest materials and designed to symbolize individuality, elegance, and love.
+  </p>
+</section>
+
+<section class="products">
+  <h2>Featured Pieces</h2>
+  <div class="features">
+    <div class="card">
+      <img src="necklace.jpg" alt="Custom Necklace">
+      <h3>Engraved Gold Necklace</h3>
+      <p>Handcrafted in 18K gold with personalized engraving.</p>
+    </div>
+    <div class="card">
+      <img src="birthstone.jpeg" alt="Gem Ring">
+      <h3>Birthstone Ring</h3>
+      <p>Designed around your birthstone for a meaningful touch.</p>
+    </div>
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbCDUKobZw5cBIv140DQB_9FrktRjoR8d1CA&s" alt="Charm Bracelet">
+      <h3>Charm Bracelet</h3>
+      <p>Create your own story with each charm you choose.</p>
+    </div>
+  </div>
+</section>
+
+<section class="testimonials">
+  <h2>Client Love</h2>
+  <div class="testimonial">
+    “I was blown away by the attention to detail. Custom necklace is a best gift for my wife— absolutely priceless.” –Pratham Bhardwaj.
+  </div>
+  <div class="testimonial">
+    “Eleganza helped me create the perfect anniversary gift. My wife wears it every day.” – Akshay.
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <h2>Contact Us</h2>
+  <p>Start your custom jewelry journey today.</p>
+  <a href="mailto:monikatyagi706@gmail.com"><button class="btn">Email Us</button></a>
+</section>
+
+<footer>
+  <p>&copy; 2025 Eleganza Jewelry. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
